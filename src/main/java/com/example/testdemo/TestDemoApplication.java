@@ -5,7 +5,7 @@ import org.springframework.boot.SpringBootConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-@SpringBootConfiguration
+//@SpringBootConfiguration
 public class TestDemoApplication {
 
     public static void main(String[] args) {
