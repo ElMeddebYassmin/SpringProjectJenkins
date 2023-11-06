@@ -15,5 +15,6 @@
 
 FROM openjdk:11
 EXPOSE 8085
-ADD target/TestDemo-0.0.1-SNAPSHOT.jar TestDemo.jar
-ENTRYPOINT ["java","-jar","/TestDemo.jar"]
+ADD target/TestDemo-0.0.1-SNAPSHOT.jar TestDemo-0.0.1.jar
+CMD java -jar achat-0.0.1.jar
+ENTRYPOINT ["java","-jar","/TestDemo-0.0.1.jar"]
