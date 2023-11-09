@@ -12,7 +12,7 @@ services :
     stdin_open: true
     tty: true
     volumes:
-      - "/Users/yassm/.m2:/root/.m2"
+      - ".m2:/root/.m2"
   mysqldb :
     image: mysql:8.0
     restart: always
